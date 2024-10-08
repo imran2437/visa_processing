@@ -1,0 +1,11 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_visa_document_user,access_visa_document_user,model_visa_document,base.group_user,1,1,1,1
+access_visa_application_user,access_visa_application_user,model_visa_application,base.group_user,1,1,1,1
+access_visa_processing_stage_user,access_visa_processing_stage_user,model_visa_processing_stage,base.group_user,1,1,1,1
+access_visa_communication_user,access_visa_communication_user,model_visa_communication,base.group_user,1,1,1,1
+access_visa_payment_user,access_visa_payment_user,model_visa_payment,base.group_user,1,1,1,1
+access_visa_application_checklist_user,access_visa_application_checklist_user,model_visa_application_checklist,base.group_user,1,1,1,1
+access_visa_document_checklist_user,access_visa_document_checklist_user,model_visa_document_checklist,base.group_user,1,1,1,1
+access_visa_appointment_user,access_visa_appointment_user,model_visa_appointment,base.group_user,1,1,1,1
+access_visa_review_user,access_visa_review_user,model_visa_review,base.group_user,1,1,1,1
+access_visa_interview_user,access_visa_interview_user,model_visa_interview,base.group_user,1,1,1,1

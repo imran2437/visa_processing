@@ -1,0 +1,92 @@
+<odoo>
+    <data>
+
+        <!-- Action for Visa Applications -->
+        <record id="action_visa_application" model="ir.actions.act_window">
+            <field name="name">Visa Applications</field>
+            <field name="res_model">visa.application</field>
+            <field name="view_mode">tree,form,kanban</field>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">
+                    Create your first Visa Application
+                </p>
+            </field>
+        </record>
+
+        <!-- Action for Visa Documents -->
+        <record id="action_visa_document" model="ir.actions.act_window">
+            <field name="name">Visa Documents</field>
+            <field name="res_model">visa.document</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">
+                    Manage your Visa Application Documents
+                </p>
+            </field>
+        </record>
+
+        <!-- Action for Visa Processing Stages -->
+        <record id="action_visa_processing_stage" model="ir.actions.act_window">
+            <field name="name">Visa Processing Stages</field>
+            <field name="res_model">visa.processing.stage</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <!-- Action for Visa Communications -->
+        <record id="action_visa_communication" model="ir.actions.act_window">
+            <field name="name">Visa Communications</field>
+            <field name="res_model">visa.communication</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <!-- Action for Visa Payments -->
+        <record id="action_visa_payment" model="ir.actions.act_window">
+            <field name="name">Visa Payments</field>
+            <field name="res_model">visa.payment</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <!-- Action for Visa Checklist -->
+        <record id="action_visa_application_checklist" model="ir.actions.act_window">
+            <field name="name">Visa Application Checklist</field>
+            <field name="res_model">visa.application.checklist</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <!-- Action for Visa Appointments -->
+        <record id="action_visa_appointment" model="ir.actions.act_window">
+            <field name="name">Visa Appointments</field>
+            <field name="res_model">visa.appointment</field>
+            <field name="view_mode">tree,form,calendar</field>
+        </record>
+
+        <!-- Action for Visa Reviews -->
+        <record id="action_visa_review" model="ir.actions.act_window">
+            <field name="name">Visa Reviews</field>
+            <field name="res_model">visa.review</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <!-- Action for Visa Interviews -->
+        <record id="action_visa_interview" model="ir.actions.act_window">
+            <field name="name">Visa Interviews</field>
+            <field name="res_model">visa.interview</field>
+            <field name="view_mode">tree,form,calendar</field>
+        </record>
+
+        <!-- Main Menu Item -->
+        <menuitem id="menu_visa_processing_root" name="Visa Processing" sequence="1" />
+        
+        <!-- Sub Menu Items -->
+        <menuitem id="menu_visa_application" name="Visa Applications" parent="menu_visa_processing_root" action="action_visa_application" sequence="1"/>
+        <menuitem id="menu_visa_document" name="Visa Documents" parent="menu_visa_processing_root" action="action_visa_document" sequence="2"/>
+        <menuitem id="menu_visa_processing_stage" name="Processing Stages" parent="menu_visa_processing_root" action="action_visa_processing_stage" sequence="3"/>
+        <menuitem id="menu_visa_communication" name="Communications" parent="menu_visa_processing_root" action="action_visa_communication" sequence="4"/>
+        <menuitem id="menu_visa_payment" name="Payments" parent="menu_visa_processing_root" action="action_visa_payment" sequence="5"/>
+        <menuitem id="menu_visa_application_checklist" name="Application Checklist" parent="menu_visa_processing_root" action="action_visa_application_checklist" sequence="6"/>
+        <menuitem id="menu_visa_appointment" name="Appointments" parent="menu_visa_processing_root" action="action_visa_appointment" sequence="7"/>
+        <menuitem id="menu_visa_review" name="Reviews" parent="menu_visa_processing_root" action="action_visa_review" sequence="8"/>
+        <menuitem id="menu_visa_interview" name="Interviews" parent="menu_visa_processing_root" action="action_visa_interview" sequence="9"/>
+
+    </data>
+</odoo>

@@ -1,0 +1,63 @@
+<odoo>
+    <data noupdate="1">
+        <!-- Visa Application Model -->
+        <record id="model_visa_application" model="ir.model">
+            <field name="name">visa.application</field>
+            <field name="model">visa.application</field>
+        </record>
+
+        <!-- Visa Document Model -->
+        <record id="model_visa_document" model="ir.model">
+            <field name="name">visa.document</field>
+            <field name="model">visa.document</field>
+        </record>
+
+        <!-- Visa Processing Stage Model -->
+        <record id="model_visa_processing_stage" model="ir.model">
+            <field name="name">visa.processing.stage</field>
+            <field name="model">visa.processing.stage</field>
+        </record>
+
+        <!-- Visa Communication Model -->
+        <record id="model_visa_communication" model="ir.model">
+            <field name="name">visa.communication</field>
+            <field name="model">visa.communication</field>
+        </record>
+
+        <!-- Visa Payment Model -->
+        <record id="model_visa_payment" model="ir.model">
+            <field name="name">visa.payment</field>
+            <field name="model">visa.payment</field>
+        </record>
+
+        <!-- Visa Application Checklist Model -->
+        <record id="model_visa_application_checklist" model="ir.model">
+            <field name="name">visa.application.checklist</field>
+            <field name="model">visa.application.checklist</field>
+        </record>
+
+        <!-- Visa Document Checklist Model -->
+        <record id="model_visa_document_checklist" model="ir.model">
+            <field name="name">visa.document.checklist</field>
+            <field name="model">visa.document.checklist</field>
+        </record>
+
+        <!-- Visa Appointment Model -->
+        <record id="model_visa_appointment" model="ir.model">
+            <field name="name">visa.appointment</field>
+            <field name="model">visa.appointment</field>
+        </record>
+
+        <!-- Visa Review Model -->
+        <record id="model_visa_review" model="ir.model">
+            <field name="name">visa.review</field>
+            <field name="model">visa.review</field>
+        </record>
+
+        <!-- Visa Interview Model -->
+        <record id="model_visa_interview" model="ir.model">
+            <field name="name">visa.interview</field>
+            <field name="model">visa.interview</field>
+        </record>
+    </data>
+</odoo>
